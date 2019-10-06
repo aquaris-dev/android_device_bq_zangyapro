@@ -19,3 +19,8 @@ DEVICE_PACKAGE_OVERLAYS += device/bq/zangyapro/overlay
 
 include device/bq/sdm660-common/sdm660.mk
 
+# ZRAM
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.qti.config.zram=true \
+    ro.vendor.qti.config.zramsize=536870912
+
