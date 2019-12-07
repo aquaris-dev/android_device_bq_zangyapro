@@ -20,8 +20,8 @@ PRODUCT_MANUFACTURER := bq
 PRODUCT_RELEASE_NAME := zangyapro
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRIVATE_BUILD_DESC="zangyapro_bq-user 9 PKQ1.190723.001 1044 release-keys" \
+        PRIVATE_BUILD_DESC="zangyapro_bq-user 9 PKQ1.190723.001 1125 release-keys" \
         PRODUCT_NAME="zangyapro_bq" \
         TARGET_DEVICE="zangyapro_sprout"
 
-BUILD_FINGERPRINT := bq/zangyapro_bq/zangyapro_sprout:9/PKQ1.190723.001/1044:user/release-keys
+BUILD_FINGERPRINT := bq/zangyapro_bq/zangyapro_sprout:9/PKQ1.190723.001/1125:user/release-keys
