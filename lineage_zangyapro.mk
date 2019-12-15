@@ -25,3 +25,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         TARGET_DEVICE="zangyapro_sprout"
 
 BUILD_FINGERPRINT := bq/zangyapro_bq/zangyapro_sprout:9/PKQ1.190723.001/1125:user/release-keys
+
+PRODUCT_GMS_CLIENTID_BASE := android-bq
